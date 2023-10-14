@@ -77,6 +77,9 @@ The one way anova inferential test  shows a small p-value which is 0.000116, whi
 plot(TukeyHSD(model1))
 ```
 
+This plot shows that there is a difference in the alcohol consumed between the three sections that a person can be seated in.
+The intervals from the Middle-Front cross which tells us that there is not a significant difference between these two sections. on the other hand, the intervals of the Front-Back and Middle-Back never cross which means that there is a significant difference between the amount of drinks per section.
+
 ## Conclusions
 
 
