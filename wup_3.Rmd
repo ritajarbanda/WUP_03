@@ -56,6 +56,10 @@ We can assume that people in the back consume more alcoholic drinks compared to 
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=davisdata)
+``` 
+
 ## Inferential Tests
 
 ## Conclusions
