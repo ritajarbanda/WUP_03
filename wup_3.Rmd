@@ -60,6 +60,10 @@ We can assume that people in the back consume more alcoholic drinks compared to 
 favstats(alcohol~Seat,data=davisdata)
 ``` 
 
+The numerical data shows that the average number of drinks for the people seated in the back is about 9 drinks.
+This is three times the average number of drinks for those who are seated in the middle. 
+This is also nine times average number of drinks for those who are seated in the front.
+
 ## Inferential Tests
 
 ## Conclusions
