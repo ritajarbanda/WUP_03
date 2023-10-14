@@ -66,6 +66,13 @@ This is also nine times average number of drinks for those who are seated in the
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+The one way anova inferential test  shows a small p-value which is 0.000116, which means that there is a probability of having no difference between alcohol consumed between the front, middle and back rows that are available for people to be seated in.
+
 ## Conclusions
 
 
