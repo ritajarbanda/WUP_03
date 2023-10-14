@@ -82,4 +82,7 @@ The intervals from the Middle-Front cross which tells us that there is not a sig
 
 ## Conclusions
 
+After looking over the numerical data and inferential tests, we can conclude that the people who are seated in the back section are consuming more alcohol that those who are seated in the front or middle section. The numerical data shows that the average number of drinks for the people seated in the back is about 9 drinks while there is three times the average number of drinks for those who are seated in the middle and nine times average number of drinks for those who are seated in the front. We also got a p-value of 0.000116 which indicates that there is a chance of having no difference between alcohol consumed between the front, middle and back rows that are available for people to be seated in.
 
+
+$H_A$: The average number drinks is different between at least two rows
