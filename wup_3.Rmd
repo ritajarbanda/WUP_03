@@ -1,7 +1,7 @@
 ---
 title: "Alcohol vs Seat choice"
-author: "Your Name"
-date: "Fall 2020"
+author: "Rita Jarbanda"
+date: "Fall 2023"
 output: html_document
 ---
 
@@ -16,6 +16,21 @@ davisdata <- read.csv(file="UCDavis.csv")
 ```
 ## Our Goal is to answer this question Is there a difference between the alcohol consumed between the row
 ## you choose to sit in??
+
+$H_0$: There is no difference between the average number of drinks imbibed between people conditioned on the row they sit in.
+$H_A$: The average number drinks is different between at least two rows. 
+
+
+
+
+#method
+
+```{r eval=FALSE}
+davisdata <- davisdata %>%
+mutate(across(where(is.character), as.factor))
+```
+
+We have changed all the character variables to factor variables.The type of this problem needs a numerical variable called Alcohol and a factor variable called Seat We will be using different helper files to help us complete the analysis of Numerical and factorial variables.
 
 ## Now with ggplot - first select the basic data
 
